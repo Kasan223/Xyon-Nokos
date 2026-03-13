@@ -6,22 +6,22 @@ module.exports = {
   // Nama bot
   botName: 'XyonBot',
 
-  // Prefix command (bisa array)
+  // Prefix command
   prefix: ['.', '!', '/'],
 
-  // Nomor owner (format: 628xxx)
-  ownerNumber: ['628xxxxxxxxxx'],
+  // Nomor owner (format: 628xxx) — dipakai juga untuk pairing code
+  ownerNumber: ['6287767510608'],
 
-  // Anti spam: max pesan per detik per user
-  spamLimit: 5,       // max 5 pesan
-  spamWindow: 5000,   // dalam 5 detik
+  // API Key RumahOTP
+  rumahotp: '',
 
-  // Auto reply saat bot offline/loading
+  // Anti spam
+  spamLimit: 5,
+  spamWindow: 5000,
+
+  // Auto reply DM
   autoReply: true,
 
-  // Sesi (nama folder di /sessions)
-  sessionId: 'main',
-
-  // Multi sesi — tambah session ID di sini
-  sessions: ['main'], // ['main', 'second', 'third']
+  // Sesi aktif
+  sessions: ['main'],
 }
